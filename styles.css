@@ -1,3 +1,12 @@
 .custom-navbar {
-  background-color: #1b1126 !important; /* roxo quase preto */
+  background-color: #1C1325 !important; /* roxo quase preto */
+}
+
+.custom-welcome{
+background: #9485a6 !important; 
+background: linear-gradient(90deg, rgba(148, 133, 166, 1) 0%, rgba(172, 124, 191, 1) 23%, rgba(160, 141, 176, 1) 50%, rgba(145, 105, 143, 1) 80%, rgba(82, 55, 82, 1) 100%)!important;
+}
+
+.custom-success{
+  background-color: #44D1B4;
 }
