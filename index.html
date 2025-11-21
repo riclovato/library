@@ -1,146 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Biblioteca mesttra</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
 
-  <body class="d-flex flex-column min-vh-100">
-    <!-- navbar (menu de navegação)-->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm custom-navbar"
-    >
-      <div class="container">
-        <a class="navbar-brand" fw-bold fs-4>
-          <i class="bi bi-book me-2"></i>
-          Biblioteca Mesttra
-        </a>
-        <!-- botão de hamburguer mobile-->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navBarNav"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navBarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a href="/index.html" class="nav-link active">
-                <i class="bi bi-house-fill"></i>
-                Home</a
-              >
-            </li>
-            <!-- dropdown menu for Cadastros -->
-            <li class="nav-item dropdown">
-              <a
-                href=""
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-              >
-                <i class="bi bi-person-plus-fill"></i>
-                Cadastros
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    <i class="bi bi-person"></i>
-                    Aluno
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    <i class="bi bi-pen-fill"></i>
-                    Autores
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    <i class="bi bi-tag"></i>
-                    Categoria
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    <i class="bi bi-building-fill"></i>
-                    Editoras
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    <i class="bi bi-book"></i>
-                    Livros
-                  </a>
-                </li>
-              </ul>
-              <!-- end dropdown menu for Cadastros -->
-            </li>
-            <!-- dropdown menu for Emprestimos -->
-            <li class="nav-item dropdown">
-              <a
-                href=""
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-              >
-                <i class="bi bi-arrow-left-right"></i>
-                Emprestimos
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    <i class="bi bi-box-arrow-in-right"></i>
-                    Emprestar
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    <i class="bi bi-box-arrow-in-left"></i>
-                    Devolver
-                  </a>
-                </li>
-              </ul>
-              <!-- end dropdown menu for Emprestimos -->
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biblioteca mesttra</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
 
-    <!-- sessão boas vindas -->
-    <section class="custom-welcome text-white text-center py-5">
-      <div class="container py-4">
-        <h1 class="display-3 fw-bold mb-4">
-          <i class="bi bi-journals me-3"></i>
-          Bem vindo à Biblioteca Mesttra!
-        </h1>
-        <p class="lead fs-3 mb-4">Seu portal de conhecimento e aprendizado</p>
+<body class="d-flex flex-column min-vh-100">
+  <!-- navbar (menu de navegação)-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" fw-bold fs-4>
+        <i class="bi bi-book me-2"></i>
+        Biblioteca Mesttra
+      </a>
+      <!-- botão de hamburguer mobile-->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navBarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link active">
+              <i class="bi bi-house-fill"></i>
+              Home</a>
+          </li>
+          <!-- dropdown menu for Cadastros -->
+          <li class="nav-item dropdown">
+            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+              <i class="bi bi-person-plus-fill"></i>
+              Cadastros
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="bi bi-person"></i>
+                  Aluno
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="bi bi-pen-fill"></i>
+                  Autores
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="bi bi-tag"></i>
+                  Categoria
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="bi bi-building-fill"></i>
+                  Editoras
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="bi bi-book"></i>
+                  Livros
+                </a>
+              </li>
+            </ul>
+            <!-- end dropdown menu for Cadastros -->
+          </li>
+          <!-- dropdown menu for Emprestimos -->
+          <li class="nav-item dropdown">
+            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+              <i class="bi bi-arrow-left-right"></i>
+              Emprestimos
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="bi bi-box-arrow-in-right"></i>
+                  Emprestar
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="bi bi-box-arrow-in-left"></i>
+                  Devolver
+                </a>
+              </li>
+            </ul>
+            <!-- end dropdown menu for Emprestimos -->
+          </li>
+        </ul>
       </div>
-      <div class="d-flex gap-3 justify-content-center flex-wrap">
-        <a href="" class="btn custom-success btn-lg px-4 py-3">Novo Cadastro</a>
-        <a href="" class="btn btn-light btn-lg px-4 py-3">Pegar Livro</a>
-      </div>
-    </section>
-    <!-- sessão boas vindas -->
+    </div>
+  </nav>
 
-    <!--sessão estatísticas-->
-    <section class="bg-light py-5">
-      <div class="container py-4">
-        <h2 class="text-center mb-5 fw-bold">Nossa Biblioteca em números</h2>
-        
-        <div class="row g-4">
+  <!-- sessão boas vindas -->
+  <section class="custom-welcome text-white text-center py-5">
+    <div class="container py-4">
+      <h1 class="display-3 fw-bold mb-4">
+        <i class="bi bi-journals me-3"></i>
+        Bem vindo à Biblioteca Mesttra!
+      </h1>
+      <p class="lead fs-3 mb-4">Seu portal de conhecimento e aprendizado</p>
+    </div>
+    <div class="d-flex gap-3 justify-content-center flex-wrap">
+      <a href="" class="btn custom-success btn-lg px-4 py-3">Novo Cadastro</a>
+      <a href="" class="btn btn-light btn-lg px-4 py-3">Pegar Livro</a>
+    </div>
+  </section>
+  <!-- sessão boas vindas -->
+
+  <!--sessão estatísticas-->
+  <section class="bg-light py-5">
+    <div class="container py-4">
+      <h2 class="text-center mb-5 fw-bold">Nossa Biblioteca em números</h2>
+
+      <div class="row g-4">
         <div class="col-md-3 col-sm-6">
           <div class="card text-center shadow-sm h-100 border-0">
             <div class="card-body p-4">
@@ -150,44 +128,74 @@
             </div>
           </div>
         </div>
-        
+
         <div class="col-md-3 col-sm-6">
           <div class="card text-center shadow-sm h-100 border-0">
             <div class="card-body p-4">
-              <i class="bi bi-people-fill fs-3 mb-1 text-success"></i>
+              <i class="bi bi-people-fill fs-3 mb-1 text-secondary"></i>
               <h3 class="text-success fw-bold">3.500</h3>
               <p class="text-muted mb-0">Alunos Ativos</p>
             </div>
           </div>
         </div>
-       
+
         <div class="col-md-3 col-sm-6">
           <div class="card text-center shadow-sm h-100 border-0">
             <div class="card-body p-4">
-             <i class="bi bi-arrow-repeat fs-3 mb-1 text-warning"></i>
+              <i class="bi bi-arrow-repeat fs-3 mb-1 text-warning"></i>
               <h3 class="text-success fw-bold">850+</h3>
               <p class="text-muted mb-0">Emprestimos/Mês</p>
             </div>
           </div>
         </div>
-       
+
         <div class="col-md-3 col-sm-6">
           <div class="card text-center shadow-sm h-100 border-0">
             <div class="card-body p-4">
-            <i class="bi bi-clock fs-3 mb-1 text-info"></i>
+              <i class="bi bi-clock fs-3 mb-1 text-info"></i>
               <h3 class="text-success fw-bold">24/7</h3>
               <p class="text-muted mb-0">Acesso Online</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+  <!--fim sessão estatísticas-->
+  <footer class="bg-dark text-white text-center py-4 mt-auto">
+    <div class="cointainer">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h5 class="fw-bold">
+            <i class="bi bi-building"></i> Biblioteca Mesttra
+          </h5>
+          <p class="mb-0">Sistema de Gerenciamento de biblioteca </p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5 class="fw-bold">
+            <i class="bi bi-clock"></i>
+            Horário de Funcionamento
+          </h5>
+          <p class="mb-0">Segunda a Sexta: 8h às 22h</p>
+          <p class="mb-0">Sábado 9h às 18h</p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h5 class="fw-b">
+            <i class="bi bi-telephone-fill"></i>
+            Contato
+          </h5>
+          <p class="mb-0"> (55) 1234-5678</p>
+          <p class=" mb-0">contato@bibliotecamesttra.com</p>
+        </div>
       </div>
-    </section>
+      <hr class="border-secondary">
+      <p class="mb-o">&copy 2025 Biblioteca Mesttra. Todos os direitos reservados.</p>
+    </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
